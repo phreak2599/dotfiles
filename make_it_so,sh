@@ -1,0 +1,5 @@
+foreach file ( .gitconfig .tmux.conf .vimrc .zlogin .zshenv .zshrc )
+do
+    ln -s ~/dotfiles/$i ~/$i
+done
+
