@@ -13,7 +13,7 @@ unsetopt share_history
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="trcjr"
+export ZSH_THEME="angoster"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -40,7 +40,6 @@ unsetopt share_history
 export PATH=node_modules/.bin:$HOME/bin:$HOME/.local/bin:$HOME/perl5/bin:$PATH:/sbin:/usr/sbin:/usr/local/sbin
 
 export EDITOR=vim
-export MANPATH=/home/tcampbell/.local/share/man:/home/tcampbell/perl5/man:/usr/local/vwh/library/perl5/man:/usr/kerberos/man:/usr/local/share/man:/usr/share/man/en:/usr/share/man:/usr/X11R6/man:/usr/local/man
 
 
 if [ -e $HOME/.zshrc_local ];then
@@ -57,9 +56,6 @@ fi
 #export DISPLAY=:0.0
 
 #export EDITOR="$( which vim ) -X"
-
-
-CVS_RSH=ssh
 
 #alias cvsstat='cvs -n update 2>&1 | grep -P '\''(^(A|R|M|\?)|update aborted|warning)'\'''
 
