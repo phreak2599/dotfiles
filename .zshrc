@@ -25,9 +25,9 @@ export DISABLE_AUTO_UPDATE="true"
 # Uncomment following line if you want to disable colors in ls
 # export DISABLE_LS_COLORS="true"
 #export NO_GIT_PROMPT_INFO="true"
-export NO_VIRTUALENV_PROMPT_INFO="true"
+#export NO_VIRTUALENV_PROMPT_INFO="true"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
